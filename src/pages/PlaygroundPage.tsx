@@ -1,12 +1,12 @@
 // import Onboarding from "../components/Onboarding";
 // import TermsAndConditions from "../components/TermsAndConditions";
 
-import ExpandableText from "../components/ExpandableText";
+import SearchBox from "../components/SearchBox";
+
+// import ExpandableText from "../components/ExpandableText";
 
 const PlaygroundPage = () => {
-  return (
-    <ExpandableText text="njnjknjnnjnn jnuhuui jhuygub jhbuyo huh jhbyugkugkb huyguk kuhguygku yugyuyguyg uyguyogoygo njnjknjnnjnn jnuhuui jhuygub jhbuyo huh jhbyugkugkb huyguk kuhguygku yugyuyguyg uyguyogoygnjnjknjnnjnn jnuhuui jhuygub jhbuyo huh jhbyugkugkb huyguk kuhguygku yugyuyguyg uyguyogoygnjnjknjnnjnn jnuhuui jhuygub jhbuyo huh jhbyugkugkb huyguk kuhguygku yugyuyguyg uyguyogoygnjnjknjnnjnn jnuhuui jhuygub jhbuyo huh jhbyugkugkb huyguk kuhguygku yugyuyguyg uyguyogoyg" />
-  );
+  return <SearchBox onChange={(text) => console.log(text)} />;
 };
 
 export default PlaygroundPage;
