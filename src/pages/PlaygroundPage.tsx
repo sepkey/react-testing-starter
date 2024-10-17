@@ -1,12 +1,7 @@
-// import Onboarding from "../components/Onboarding";
-// import TermsAndConditions from "../components/TermsAndConditions";
-
-import SearchBox from "../components/SearchBox";
-
-// import ExpandableText from "../components/ExpandableText";
+import ToastDemo from "../components/ToastDemo";
 
 const PlaygroundPage = () => {
-  return <SearchBox onChange={(text) => console.log(text)} />;
+  return <ToastDemo />;
 };
 
 export default PlaygroundPage;
