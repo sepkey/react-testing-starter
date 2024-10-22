@@ -1,4 +1,5 @@
 import { http, HttpResponse } from "msw";
+import { products } from "./data";
 
 export const handlers = [
   http.get("./categories", () => {
@@ -7,5 +8,8 @@ export const handlers = [
       { id: 2, category: "Beauty" },
       { id: 3, category: "Gardening" },
     ]);
+  }),
+  http.get("./products", () => {
+    return HttpResponse.json(products);
   }),
 ];
